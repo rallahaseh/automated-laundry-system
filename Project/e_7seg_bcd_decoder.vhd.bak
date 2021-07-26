@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity e_bcd7seg is
+	port(
+		bcd: in integer range 0 to 9;
+		hex: out std_logic_vector(6 downto 0)
+
+	);
+end e_bcd7seg;
+
+architecture a_bcd7seg of e_bcd7seg is
+
+	
+	begin
+	
+	with count select 
+		bcd <= "0000001" when 0,
+					"0110000" when 1,
+					"0010010" when 2,
+					"0000110" when 3,
+					"1001100" when 4,
+					"0100100" when 5,
+					"0100000" when 6,
+					"0001111" when 7,
+					"0000000" when 8,
+					"0000100" when 9,
+					"1111111" when others;
+					
+	
+end a_bcd7seg;
