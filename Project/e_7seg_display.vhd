@@ -5,7 +5,7 @@ entity e_7seg_display is
 	generic(n: integer := 8);
 	port(
 		CLOCK_50, word_s: in std_logic;
-		word_choice: in integer range 0 to 6;
+		word_choice: in integer range 0 to 7;
 		payment: in integer range 0 to 290;
 		hex_1, hex_2, hex_3, hex_4, hex_5: out std_logic_vector(n-2 downto 0)
 	);
@@ -75,42 +75,49 @@ architecture a_7seg_display of e_7seg_display is
 						hex_2 <= c_7seg_off;
 						hex_1 <= c_7seg_off;
 					
-					when 1 => -- Addr
+					when 1 => -- Pass
+						hex_5 <= c_letter_P;
+						hex_4 <= c_letter_a;
+						hex_3 <= c_letter_s;
+						hex_2 <= c_letter_s;
+						hex_1 <= c_7seg_off;
+						
+					when 2 => -- Addr
 						hex_5 <= c_letter_A;
 						hex_4 <= c_letter_d;
 						hex_3 <= c_letter_d;
 						hex_2 <= c_letter_r;
 						hex_1 <= c_7seg_off;
 					
-					when 2 => -- pay
+					when 3 => -- pay
 						hex_5 <= c_letter_P;
 						hex_4 <= c_letter_a;
 						hex_3 <= c_letter_y;
 						hex_2 <= c_7seg_off;
 						hex_1 <= c_7seg_off;
 					
-					when 3 => -- Procs
+					when 4 => -- Procs
 						hex_5 <= c_letter_P;
 						hex_4 <= c_letter_r;
 						hex_3 <= c_letter_o;
 						hex_2 <= c_letter_c;
 						hex_1 <= c_letter_s;
 					
-					when 4 => -- Hold
+					when 5 => -- Hold
 						hex_5 <= c_letter_H;
 						hex_4 <= c_letter_o;
 						hex_3 <= c_letter_l;
 						hex_2 <= c_letter_d;
 						hex_1 <= c_7seg_off;
 						
-					when 5 => -- Full
+					when 6 => -- Full
 						hex_5 <= c_letter_F;
 						hex_4 <= c_letter_u;
 						hex_3 <= c_letter_l;
 						hex_2 <= c_letter_l;
 						hex_1 <= c_7seg_off;
 						
-					when 6 => -- Start
+					when 7 => -- Start
 						hex_5 <= c_letter_S;
 						hex_4 <= c_letter_t;
 						hex_3 <= c_letter_A;

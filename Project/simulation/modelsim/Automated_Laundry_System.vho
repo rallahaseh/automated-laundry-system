@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "07/26/2021 21:03:34"
+-- DATE "07/27/2021 10:56:09"
 
 -- 
 -- Device: Altera 5CSEMA5F31C6 Package FBGA896

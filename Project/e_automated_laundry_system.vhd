@@ -25,7 +25,7 @@ architecture a_automated_laundry_system of e_automated_laundry_system is
 	signal sl_address_button_last_state: std_logic := '0';
 	signal sl_working_washing_machines_count: integer range 0 to 9;
 	signal sl_state_choice: integer range 0 to 9; 
-	signal sl_word_choice: integer range 0 to 6;
+	signal sl_word_choice: integer range 0 to 7;
 	signal sl_paid: boolean := false;
 	signal sl_washing_machine_address_available: boolean;
 	signal sl_word_s: std_logic;
