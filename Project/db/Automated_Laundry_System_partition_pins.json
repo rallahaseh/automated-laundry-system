@@ -80,10 +80,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "push_password_button",
-					"strict" : false
-				},
-				{
 					"name" : "password_in[0]",
 					"strict" : false
 				},
@@ -97,6 +93,10 @@
 				},
 				{
 					"name" : "password_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "push_password_button",
 					"strict" : false
 				},
 				{

@@ -3,87 +3,87 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
-Slack : -2.737
-TNS   : -20.409
+Slack : -1.322
+TNS   : -7.465
 
 Type  : Slow 1100mV 85C Model Setup 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : -2.223
-TNS   : -50.211
+Slack : 0.056
+TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
-Slack : 0.223
+Slack : 0.292
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.511
+Slack : 0.591
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Recovery 'CLOCK_50'
-Slack : -2.538
-TNS   : -22.284
+Slack : -1.069
+TNS   : -9.422
 
 Type  : Slow 1100mV 85C Model Removal 'CLOCK_50'
-Slack : 0.904
+Slack : 0.924
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.394
-TNS   : -7.860
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.369
+Slack : 1.392
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'reset'
-Slack : 0.380
+Slack : 1.613
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
+Slack : 1.798
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
-Slack : -2.529
-TNS   : -18.851
+Slack : -1.038
+TNS   : -5.814
 
 Type  : Slow 1100mV 0C Model Setup 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : -2.158
-TNS   : -49.074
+Slack : 0.191
+TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
-Slack : 0.208
+Slack : 0.272
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.466
+Slack : 0.563
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Recovery 'CLOCK_50'
-Slack : -2.262
-TNS   : -19.757
+Slack : -0.785
+TNS   : -6.843
 
 Type  : Slow 1100mV 0C Model Removal 'CLOCK_50'
-Slack : 0.573
+Slack : 0.603
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.394
-TNS   : -8.544
-
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.329
+Slack : 1.319
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'reset'
-Slack : 0.368
+Slack : 1.610
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
+Slack : 1.831
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
-Slack : -2.068
-TNS   : -14.568
+Slack : -0.727
+TNS   : -3.993
 
 Type  : Fast 1100mV 85C Model Setup 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : -0.801
-TNS   : -14.665
+Slack : 1.767
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
-Slack : 0.136
+Slack : 0.164
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
@@ -91,59 +91,59 @@ Slack : 0.326
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Recovery 'CLOCK_50'
-Slack : -1.960
-TNS   : -17.264
+Slack : -0.485
+TNS   : -4.272
 
 Type  : Fast 1100mV 85C Model Removal 'CLOCK_50'
-Slack : 0.554
+Slack : 0.584
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.077
-TNS   : -1.148
+Slack : 1.422
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'reset'
-Slack : 0.096
+Slack : 1.429
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.371
+Slack : 1.825
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
-Slack : -1.812
-TNS   : -12.800
+Slack : -0.442
+TNS   : -2.327
 
 Type  : Fast 1100mV 0C Model Setup 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : -0.626
-TNS   : -10.863
+Slack : 1.991
+TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
-Slack : 0.122
+Slack : 0.150
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.290
+Slack : 0.299
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Recovery 'CLOCK_50'
-Slack : -1.691
-TNS   : -14.886
+Slack : -0.219
+TNS   : -1.877
 
 Type  : Fast 1100mV 0C Model Removal 'CLOCK_50'
-Slack : 0.362
+Slack : 0.391
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
-Slack : -0.078
-TNS   : -1.150
+Slack : 1.422
+TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'reset'
-Slack : 0.077
+Slack : 1.433
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'e_payment_fsm:i_e_payment_fsm|sl_coin_state.two_euro_690'
-Slack : 0.391
+Slack : 1.857
 TNS   : 0.000
 
 ------------------------------------------------------------

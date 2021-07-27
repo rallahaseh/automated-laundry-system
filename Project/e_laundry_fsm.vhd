@@ -88,9 +88,7 @@ architecture a_laundry_fsm of e_laundry_fsm is
 						end if;
 						
 					when finished_processing_state => 
-						if(washing_machine_done_sensor = '0') then
-								sl_present_state <= start_state;
-						end if;
+						sl_present_state <= start_state;
 						
 					when hold_state =>
 						if(washing_machine_done_sensor ='0') then
