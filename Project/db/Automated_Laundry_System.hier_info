@@ -1,4 +1,4 @@
-|e_automated_laundry_system
+|e_my_automated_laundry_system
 CLOCK_50 => e_laundry_fsm:i_e_laundry_fsm.CLOCK_50
 CLOCK_50 => e_7seg_display:i_e_7seg_display.CLOCK_50
 reset => e_memory:i_e_memory.reset
@@ -23,58 +23,58 @@ washing_machine_address_in[2] => e_memory:i_e_memory.washing_machine_address[2]
 washing_machine_address_in[2] => e_laundry_fsm:i_e_laundry_fsm.washing_machine_address_in[2]
 washing_machine_address_in[3] => e_memory:i_e_memory.washing_machine_address[3]
 washing_machine_address_in[3] => e_laundry_fsm:i_e_laundry_fsm.washing_machine_address_in[3]
-green_led << green_led$latch.DB_MAX_OUTPUT_PORT_TYPE
-red_led << red_led$latch.DB_MAX_OUTPUT_PORT_TYPE
-start_button << start_button$latch.DB_MAX_OUTPUT_PORT_TYPE
-hex_0[0] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[0]
-hex_0[1] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[1]
-hex_0[2] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[2]
-hex_0[3] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[3]
-hex_0[4] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[4]
-hex_0[5] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[5]
-hex_0[6] << e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[6]
-hex_1[0] << e_7seg_display:i_e_7seg_display.hex_1[0]
-hex_1[1] << e_7seg_display:i_e_7seg_display.hex_1[1]
-hex_1[2] << e_7seg_display:i_e_7seg_display.hex_1[2]
-hex_1[3] << e_7seg_display:i_e_7seg_display.hex_1[3]
-hex_1[4] << e_7seg_display:i_e_7seg_display.hex_1[4]
-hex_1[5] << e_7seg_display:i_e_7seg_display.hex_1[5]
-hex_1[6] << e_7seg_display:i_e_7seg_display.hex_1[6]
-hex_2[0] << e_7seg_display:i_e_7seg_display.hex_2[0]
-hex_2[1] << e_7seg_display:i_e_7seg_display.hex_2[1]
-hex_2[2] << e_7seg_display:i_e_7seg_display.hex_2[2]
-hex_2[3] << e_7seg_display:i_e_7seg_display.hex_2[3]
-hex_2[4] << e_7seg_display:i_e_7seg_display.hex_2[4]
-hex_2[5] << e_7seg_display:i_e_7seg_display.hex_2[5]
-hex_2[6] << e_7seg_display:i_e_7seg_display.hex_2[6]
-hex_3[0] << e_7seg_display:i_e_7seg_display.hex_3[0]
-hex_3[1] << e_7seg_display:i_e_7seg_display.hex_3[1]
-hex_3[2] << e_7seg_display:i_e_7seg_display.hex_3[2]
-hex_3[3] << e_7seg_display:i_e_7seg_display.hex_3[3]
-hex_3[4] << e_7seg_display:i_e_7seg_display.hex_3[4]
-hex_3[5] << e_7seg_display:i_e_7seg_display.hex_3[5]
-hex_3[6] << e_7seg_display:i_e_7seg_display.hex_3[6]
-hex_4[0] << e_7seg_display:i_e_7seg_display.hex_4[0]
-hex_4[1] << e_7seg_display:i_e_7seg_display.hex_4[1]
-hex_4[2] << e_7seg_display:i_e_7seg_display.hex_4[2]
-hex_4[3] << e_7seg_display:i_e_7seg_display.hex_4[3]
-hex_4[4] << e_7seg_display:i_e_7seg_display.hex_4[4]
-hex_4[5] << e_7seg_display:i_e_7seg_display.hex_4[5]
-hex_4[6] << e_7seg_display:i_e_7seg_display.hex_4[6]
-hex_5[0] << e_7seg_display:i_e_7seg_display.hex_5[0]
-hex_5[1] << e_7seg_display:i_e_7seg_display.hex_5[1]
-hex_5[2] << e_7seg_display:i_e_7seg_display.hex_5[2]
-hex_5[3] << e_7seg_display:i_e_7seg_display.hex_5[3]
-hex_5[4] << e_7seg_display:i_e_7seg_display.hex_5[4]
-hex_5[5] << e_7seg_display:i_e_7seg_display.hex_5[5]
-hex_5[6] << e_7seg_display:i_e_7seg_display.hex_5[6]
-coin_out[0] << e_payment_fsm:i_e_payment_fsm.coin_out[0]
-coin_out[1] << e_payment_fsm:i_e_payment_fsm.coin_out[1]
-coin_out[2] << e_payment_fsm:i_e_payment_fsm.coin_out[2]
-coin_out[3] << e_payment_fsm:i_e_payment_fsm.coin_out[3]
+green_led <= green_led$latch.DB_MAX_OUTPUT_PORT_TYPE
+red_led <= red_led$latch.DB_MAX_OUTPUT_PORT_TYPE
+start_button <= start_button$latch.DB_MAX_OUTPUT_PORT_TYPE
+hex_0[0] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[0]
+hex_0[1] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[1]
+hex_0[2] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[2]
+hex_0[3] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[3]
+hex_0[4] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[4]
+hex_0[5] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[5]
+hex_0[6] <= e_7seg_bcd_decoder:i_e_7seg_bcd_decoder.hex_0[6]
+hex_1[0] <= e_7seg_display:i_e_7seg_display.hex_1[0]
+hex_1[1] <= e_7seg_display:i_e_7seg_display.hex_1[1]
+hex_1[2] <= e_7seg_display:i_e_7seg_display.hex_1[2]
+hex_1[3] <= e_7seg_display:i_e_7seg_display.hex_1[3]
+hex_1[4] <= e_7seg_display:i_e_7seg_display.hex_1[4]
+hex_1[5] <= e_7seg_display:i_e_7seg_display.hex_1[5]
+hex_1[6] <= e_7seg_display:i_e_7seg_display.hex_1[6]
+hex_2[0] <= e_7seg_display:i_e_7seg_display.hex_2[0]
+hex_2[1] <= e_7seg_display:i_e_7seg_display.hex_2[1]
+hex_2[2] <= e_7seg_display:i_e_7seg_display.hex_2[2]
+hex_2[3] <= e_7seg_display:i_e_7seg_display.hex_2[3]
+hex_2[4] <= e_7seg_display:i_e_7seg_display.hex_2[4]
+hex_2[5] <= e_7seg_display:i_e_7seg_display.hex_2[5]
+hex_2[6] <= e_7seg_display:i_e_7seg_display.hex_2[6]
+hex_3[0] <= e_7seg_display:i_e_7seg_display.hex_3[0]
+hex_3[1] <= e_7seg_display:i_e_7seg_display.hex_3[1]
+hex_3[2] <= e_7seg_display:i_e_7seg_display.hex_3[2]
+hex_3[3] <= e_7seg_display:i_e_7seg_display.hex_3[3]
+hex_3[4] <= e_7seg_display:i_e_7seg_display.hex_3[4]
+hex_3[5] <= e_7seg_display:i_e_7seg_display.hex_3[5]
+hex_3[6] <= e_7seg_display:i_e_7seg_display.hex_3[6]
+hex_4[0] <= e_7seg_display:i_e_7seg_display.hex_4[0]
+hex_4[1] <= e_7seg_display:i_e_7seg_display.hex_4[1]
+hex_4[2] <= e_7seg_display:i_e_7seg_display.hex_4[2]
+hex_4[3] <= e_7seg_display:i_e_7seg_display.hex_4[3]
+hex_4[4] <= e_7seg_display:i_e_7seg_display.hex_4[4]
+hex_4[5] <= e_7seg_display:i_e_7seg_display.hex_4[5]
+hex_4[6] <= e_7seg_display:i_e_7seg_display.hex_4[6]
+hex_5[0] <= e_7seg_display:i_e_7seg_display.hex_5[0]
+hex_5[1] <= e_7seg_display:i_e_7seg_display.hex_5[1]
+hex_5[2] <= e_7seg_display:i_e_7seg_display.hex_5[2]
+hex_5[3] <= e_7seg_display:i_e_7seg_display.hex_5[3]
+hex_5[4] <= e_7seg_display:i_e_7seg_display.hex_5[4]
+hex_5[5] <= e_7seg_display:i_e_7seg_display.hex_5[5]
+hex_5[6] <= e_7seg_display:i_e_7seg_display.hex_5[6]
+coin_out[0] <= e_payment_fsm:i_e_payment_fsm.coin_out[0]
+coin_out[1] <= e_payment_fsm:i_e_payment_fsm.coin_out[1]
+coin_out[2] <= e_payment_fsm:i_e_payment_fsm.coin_out[2]
+coin_out[3] <= e_payment_fsm:i_e_payment_fsm.coin_out[3]
 
 
-|e_automated_laundry_system|e_memory:i_e_memory
+|e_my_automated_laundry_system|e_memory:i_e_memory
 enable => washing_machine_address_available.IN0
 enable => ram[8].IN1
 enable => ram[7].IN1
@@ -106,7 +106,7 @@ washing_machine_address[3] => Decoder0.IN0
 washing_machine_address_available <= washing_machine_address_available$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|e_automated_laundry_system|e_laundry_fsm:i_e_laundry_fsm
+|e_my_automated_laundry_system|e_laundry_fsm:i_e_laundry_fsm
 CLOCK_50 => sl_used_washing_machines_count[0].CLK
 CLOCK_50 => sl_used_washing_machines_count[1].CLK
 CLOCK_50 => sl_used_washing_machines_count[2].CLK
@@ -170,7 +170,7 @@ state_choice[2] <= <GND>
 state_choice[3] <= <GND>
 
 
-|e_automated_laundry_system|e_payment_fsm:i_e_payment_fsm
+|e_my_automated_laundry_system|e_payment_fsm:i_e_payment_fsm
 coin_in[0] => Equal0.IN0
 coin_in[0] => Equal1.IN3
 coin_in[0] => Equal2.IN3
@@ -203,7 +203,7 @@ payment[8] <= WideOr33.DB_MAX_OUTPUT_PORT_TYPE
 paid <= <VCC>
 
 
-|e_automated_laundry_system|e_7seg_display:i_e_7seg_display
+|e_my_automated_laundry_system|e_7seg_display:i_e_7seg_display
 CLOCK_50 => hex_1[0]~reg0.CLK
 CLOCK_50 => hex_1[1]~reg0.CLK
 CLOCK_50 => hex_1[2]~reg0.CLK
@@ -505,7 +505,7 @@ hex_5[5] <= hex_5[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 hex_5[6] <= hex_5[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|e_automated_laundry_system|e_7seg_bcd_decoder:i_e_7seg_bcd_decoder
+|e_my_automated_laundry_system|e_7seg_bcd_decoder:i_e_7seg_bcd_decoder
 count[0] => Mux0.IN19
 count[0] => Mux1.IN19
 count[0] => Mux2.IN19

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY e_automated_laundry_system
+set_global_assignment -name TOP_LEVEL_ENTITY e_my_automated_laundry_system
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:34:55  JULY 24, 2021"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -51,9 +51,9 @@ set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VHDL_FILE e_my_automated_laundry_system.vhd
 set_global_assignment -name VHDL_FILE e_7seg_display.vhd
 set_global_assignment -name VHDL_FILE e_7seg_bcd_decoder.vhd
-set_global_assignment -name VHDL_FILE e_automated_laundry_system.vhd
 set_global_assignment -name VHDL_FILE e_laundry_fsm.vhd
 set_global_assignment -name VHDL_FILE e_payment_fsm.vhd
 set_global_assignment -name VHDL_FILE e_memory.vhd

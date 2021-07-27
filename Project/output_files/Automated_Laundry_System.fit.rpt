@@ -1,5 +1,5 @@
 Fitter report for Automated_Laundry_System
-Tue Jul 27 10:55:42 2021
+Tue Jul 27 12:48:02 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -62,10 +62,10 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Jul 27 10:55:42 2021       ;
+; Fitter Status                   ; Successful - Tue Jul 27 12:48:02 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; Automated_Laundry_System                    ;
-; Top-level Entity Name           ; e_automated_laundry_system                  ;
+; Top-level Entity Name           ; e_my_automated_laundry_system               ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
@@ -210,7 +210,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Project/output_files/Automated_Laundry_System.pin.
+The pin-out file can be found in Y:/Developer/DIT/automated-laundry-system/Project/output_files/Automated_Laundry_System.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -1555,17 +1555,17 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------+-------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
-+----------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------------------+----------------------------+--------------+
-; Compilation Hierarchy Node                   ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                 ; Entity Name                ; Library Name ;
-+----------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------------------+----------------------------+--------------+
-; |e_automated_laundry_system                  ; 82.5 (0.5)           ; 89.0 (0.5)                       ; 6.5 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 150 (1)             ; 15 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 67   ; 0            ; |e_automated_laundry_system                                         ; e_automated_laundry_system ; work         ;
-;    |e_7seg_bcd_decoder:i_e_7seg_bcd_decoder| ; 2.8 (2.8)            ; 2.8 (2.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_automated_laundry_system|e_7seg_bcd_decoder:i_e_7seg_bcd_decoder ; e_7seg_bcd_decoder         ; work         ;
-;    |e_laundry_fsm:i_e_laundry_fsm|           ; 12.3 (12.3)          ; 13.2 (13.2)                      ; 0.8 (0.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 19 (19)             ; 15 (15)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_automated_laundry_system|e_laundry_fsm:i_e_laundry_fsm           ; e_laundry_fsm              ; work         ;
-;    |e_memory:i_e_memory|                     ; 11.7 (11.7)          ; 12.0 (12.0)                      ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 22 (22)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_automated_laundry_system|e_memory:i_e_memory                     ; e_memory                   ; work         ;
-;    |e_payment_fsm:i_e_payment_fsm|           ; 54.5 (54.5)          ; 60.5 (60.5)                      ; 6.0 (6.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 101 (101)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_automated_laundry_system|e_payment_fsm:i_e_payment_fsm           ; e_payment_fsm              ; work         ;
-+----------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------------------+----------------------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
++----------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------------------------------------------------+-------------------------------+--------------+
+; Compilation Hierarchy Node                   ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                    ; Entity Name                   ; Library Name ;
++----------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------------------------------------------------+-------------------------------+--------------+
+; |e_my_automated_laundry_system               ; 82.5 (0.5)           ; 89.0 (0.5)                       ; 6.5 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 150 (1)             ; 15 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 67   ; 0            ; |e_my_automated_laundry_system                                         ; e_my_automated_laundry_system ; work         ;
+;    |e_7seg_bcd_decoder:i_e_7seg_bcd_decoder| ; 2.8 (2.8)            ; 2.8 (2.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_my_automated_laundry_system|e_7seg_bcd_decoder:i_e_7seg_bcd_decoder ; e_7seg_bcd_decoder            ; work         ;
+;    |e_laundry_fsm:i_e_laundry_fsm|           ; 12.3 (12.3)          ; 13.2 (13.2)                      ; 0.8 (0.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 19 (19)             ; 15 (15)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_my_automated_laundry_system|e_laundry_fsm:i_e_laundry_fsm           ; e_laundry_fsm                 ; work         ;
+;    |e_memory:i_e_memory|                     ; 11.7 (11.7)          ; 12.0 (12.0)                      ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 22 (22)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_my_automated_laundry_system|e_memory:i_e_memory                     ; e_memory                      ; work         ;
+;    |e_payment_fsm:i_e_payment_fsm|           ; 54.5 (54.5)          ; 60.5 (60.5)                      ; 6.0 (6.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 101 (101)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |e_my_automated_laundry_system|e_payment_fsm:i_e_payment_fsm           ; e_payment_fsm                 ; work         ;
++----------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------------------------------------------------+-------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -2281,7 +2281,7 @@ Info (184021): Fitter periphery placement operations ending: elapsed time is 00:
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:16
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:15
 Warning (335093): The Timing Analyzer is analyzing 40 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'Automated_Laundry_System.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
@@ -2301,23 +2301,23 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
-Info (11888): Total time spent on timing analysis during the Fitter is 0.73 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.57 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:06
-Info (144001): Generated suppressed messages file C:/Project/output_files/Automated_Laundry_System.fit.smsg
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:07
+Info (144001): Generated suppressed messages file Y:/Developer/DIT/automated-laundry-system/Project/output_files/Automated_Laundry_System.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 6615 megabytes
-    Info: Processing ended: Tue Jul 27 10:55:43 2021
-    Info: Elapsed time: 00:00:57
-    Info: Total CPU time (on all processors): 00:01:32
+    Info: Peak virtual memory: 6619 megabytes
+    Info: Processing ended: Tue Jul 27 12:48:03 2021
+    Info: Elapsed time: 00:00:53
+    Info: Total CPU time (on all processors): 00:01:22
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Project/output_files/Automated_Laundry_System.fit.smsg.
+The suppressed messages can be found in Y:/Developer/DIT/automated-laundry-system/Project/output_files/Automated_Laundry_System.fit.smsg.
 
 

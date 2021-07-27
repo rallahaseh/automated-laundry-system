@@ -1,5 +1,5 @@
 Flow report for Automated_Laundry_System
-Tue Jul 27 10:56:09 2021
+Tue Jul 27 12:48:26 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,10 +40,10 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Jul 27 10:56:09 2021       ;
+; Flow Status                     ; Successful - Tue Jul 27 12:48:26 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; Automated_Laundry_System                    ;
-; Top-level Entity Name           ; e_automated_laundry_system                  ;
+; Top-level Entity Name           ; e_my_automated_laundry_system               ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
@@ -67,31 +67,31 @@ refer to the applicable agreement for further details.
 +-------------------+--------------------------+
 ; Option            ; Setting                  ;
 +-------------------+--------------------------+
-; Start date & time ; 07/27/2021 10:54:29      ;
+; Start date & time ; 07/27/2021 12:46:53      ;
 ; Main task         ; Compilation              ;
 ; Revision Name     ; Automated_Laundry_System ;
 +-------------------+--------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                      ;
-+-------------------------------------+----------------------------------------+--------------------------+----------------------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value            ; Entity Name                ; Section Id     ;
-+-------------------------------------+----------------------------------------+--------------------------+----------------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 121367438249.162737606908740           ; --                       ; --                         ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --                       ; --                         ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>                   ; --                         ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --                       ; --                         ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                       ; --                         ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --                       ; --                         ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --                       ; e_automated_laundry_system ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --                       ; e_automated_laundry_system ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --                       ; e_automated_laundry_system ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --                       ; --                         ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                       ; --                         ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --                       ; --                         ; --             ;
-; TOP_LEVEL_ENTITY                    ; e_automated_laundry_system             ; Automated_Laundry_System ; --                         ; --             ;
-+-------------------------------------+----------------------------------------+--------------------------+----------------------------+----------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                         ;
++-------------------------------------+----------------------------------------+--------------------------+-------------------------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value            ; Entity Name                   ; Section Id     ;
++-------------------------------------+----------------------------------------+--------------------------+-------------------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 121367438249.162738281306436           ; --                       ; --                            ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --                       ; --                            ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>                   ; --                            ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --                       ; --                            ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                       ; --                            ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --                       ; --                            ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --                       ; e_my_automated_laundry_system ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --                       ; e_my_automated_laundry_system ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --                       ; e_my_automated_laundry_system ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --                       ; --                            ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                       ; --                            ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --                       ; --                            ; --             ;
+; TOP_LEVEL_ENTITY                    ; e_my_automated_laundry_system          ; Automated_Laundry_System ; --                            ; --             ;
++-------------------------------------+----------------------------------------+--------------------------+-------------------------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -99,12 +99,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4850 MB             ; 00:00:33                           ;
-; Fitter               ; 00:00:56     ; 1.0                     ; 6615 MB             ; 00:01:31                           ;
-; Assembler            ; 00:00:09     ; 1.0                     ; 4823 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:10     ; 1.1                     ; 5133 MB             ; 00:00:10                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4741 MB             ; 00:00:02                           ;
-; Total                ; 00:01:33     ; --                      ; --                  ; 00:02:24                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4852 MB             ; 00:00:29                           ;
+; Fitter               ; 00:00:52     ; 1.0                     ; 6619 MB             ; 00:01:21                           ;
+; Assembler            ; 00:00:09     ; 1.0                     ; 4831 MB             ; 00:00:08                           ;
+; Timing Analyzer      ; 00:00:08     ; 1.1                     ; 5132 MB             ; 00:00:08                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4738 MB             ; 00:00:02                           ;
+; Total                ; 00:01:27     ; --                      ; --                  ; 00:02:08                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

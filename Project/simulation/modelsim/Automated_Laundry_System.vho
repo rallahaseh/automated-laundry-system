@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "07/27/2021 10:56:09"
+-- DATE "07/27/2021 12:48:26"
 
 -- 
 -- Device: Altera 5CSEMA5F31C6 Package FBGA896
@@ -35,7 +35,7 @@ USE ALTERA_LNSIM.ALTERA_LNSIM_COMPONENTS.ALL;
 USE CYCLONEV.CYCLONEV_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
 
-ENTITY 	e_automated_laundry_system IS
+ENTITY 	e_my_automated_laundry_system IS
     PORT (
 	CLOCK_50 : IN std_logic;
 	reset : IN std_logic;
@@ -46,18 +46,18 @@ ENTITY 	e_automated_laundry_system IS
 	coin_in : IN std_logic_vector(3 DOWNTO 0);
 	password_in : IN std_logic_vector(3 DOWNTO 0);
 	washing_machine_address_in : IN std_logic_vector(3 DOWNTO 0);
-	green_led : BUFFER std_logic;
-	red_led : BUFFER std_logic;
-	start_button : BUFFER std_logic;
-	hex_0 : BUFFER std_logic_vector(6 DOWNTO 0);
-	hex_1 : BUFFER std_logic_vector(6 DOWNTO 0);
-	hex_2 : BUFFER std_logic_vector(6 DOWNTO 0);
-	hex_3 : BUFFER std_logic_vector(6 DOWNTO 0);
-	hex_4 : BUFFER std_logic_vector(6 DOWNTO 0);
-	hex_5 : BUFFER std_logic_vector(6 DOWNTO 0);
-	coin_out : BUFFER std_logic_vector(3 DOWNTO 0)
+	green_led : OUT std_logic;
+	red_led : OUT std_logic;
+	start_button : OUT std_logic;
+	hex_0 : OUT std_logic_vector(6 DOWNTO 0);
+	hex_1 : OUT std_logic_vector(6 DOWNTO 0);
+	hex_2 : OUT std_logic_vector(6 DOWNTO 0);
+	hex_3 : OUT std_logic_vector(6 DOWNTO 0);
+	hex_4 : OUT std_logic_vector(6 DOWNTO 0);
+	hex_5 : OUT std_logic_vector(6 DOWNTO 0);
+	coin_out : OUT std_logic_vector(3 DOWNTO 0)
 	);
-END e_automated_laundry_system;
+END e_my_automated_laundry_system;
 
 -- Design Ports Information
 -- green_led	=>  Location: PIN_F8,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -129,7 +129,7 @@ END e_automated_laundry_system;
 -- nearby_person_sensor	=>  Location: PIN_AH29,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
-ARCHITECTURE structure OF e_automated_laundry_system IS
+ARCHITECTURE structure OF e_my_automated_laundry_system IS
 SIGNAL gnd : std_logic := '0';
 SIGNAL vcc : std_logic := '1';
 SIGNAL unknown : std_logic := 'X';

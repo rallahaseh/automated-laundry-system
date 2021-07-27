@@ -1,0 +1,248 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Project/simulation/modelsim
+Ee_7seg_bcd_decoder
+Z1 w1627302878
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Project/e_7seg_bcd_decoder.vhd
+Z5 FC:/Project/e_7seg_bcd_decoder.vhd
+l0
+L4
+VYzdEdl:4<fD23?en7m`d73
+!s100 hlJL5Q^:;J@Fd1SVm^`HM0
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1627382343
+!i10b 1
+Z8 !s108 1627382343.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Project/e_7seg_bcd_decoder.vhd|
+Z10 !s107 C:/Project/e_7seg_bcd_decoder.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aa_7seg_bcd_decoder
+R2
+R3
+DEx4 work 18 e_7seg_bcd_decoder 0 22 YzdEdl:4<fD23?en7m`d73
+l32
+L14
+VCKeS_JP>89Wmk;oZ<?k3]2
+!s100 K^<B_E`g;8TFNi0Zc2@IO1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ee_7seg_display
+Z13 w1627376066
+R2
+R3
+R0
+Z14 8C:/Project/e_7seg_display.vhd
+Z15 FC:/Project/e_7seg_display.vhd
+l0
+L4
+V?<?dL@eh45FPhan=Cz?2I1
+!s100 lmgT2JPSjYIaK?1DdG>9K0
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Project/e_7seg_display.vhd|
+Z17 !s107 C:/Project/e_7seg_display.vhd|
+!i113 1
+R11
+R12
+Aa_7seg_display
+R2
+R3
+DEx4 work 14 e_7seg_display 0 22 ?<?dL@eh45FPhan=Cz?2I1
+l57
+L14
+V^B[?cbH>@jomZ`nd0@k@V3
+!s100 ?407CUgHQM5bBA5`cUXG50
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ee_automated_laundry_system
+Z18 w1627375984
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z20 8C:/Project/e_automated_laundry_system.vhd
+Z21 FC:/Project/e_automated_laundry_system.vhd
+l0
+L5
+VdgXPTn0m7ROh`b^P`de@L0
+!s100 Zal4^Q8IWz3]nUbjblGng2
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Project/e_automated_laundry_system.vhd|
+Z23 !s107 C:/Project/e_automated_laundry_system.vhd|
+!i113 1
+R11
+R12
+Aa_automated_laundry_system
+R19
+R2
+R3
+DEx4 work 26 e_automated_laundry_system 0 22 dgXPTn0m7ROh`b^P`de@L0
+l99
+L19
+V]YhXgI38gUJe^DjHMQ8H^2
+!s100 bn09DeF[bOYI>A6`4>E3z2
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Ee_laundry_fsm
+Z24 w1627326026
+R2
+R3
+R0
+Z25 8C:/Project/e_laundry_fsm.vhd
+Z26 FC:/Project/e_laundry_fsm.vhd
+l0
+L4
+V4:6]?ZiBS5c1HL1GQE3>i2
+!s100 fzV2llBRU5U=ZlUiNDBoj2
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Project/e_laundry_fsm.vhd|
+Z28 !s107 C:/Project/e_laundry_fsm.vhd|
+!i113 1
+R11
+R12
+Aa_laundry_fsm
+R2
+R3
+DEx4 work 13 e_laundry_fsm 0 22 4:6]?ZiBS5c1HL1GQE3>i2
+l34
+L17
+V=:zNAhEOE=EDko>?^nIAZ2
+!s100 cSW;O?UaESnocaFO04<6l0
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Ee_memory
+Z29 w1627326101
+R19
+R2
+R3
+R0
+Z30 8C:/Project/e_memory.vhd
+Z31 FC:/Project/e_memory.vhd
+l0
+L5
+VSN>d;GNE]@5M4j00<IeLU3
+!s100 YN?bdof37niGgVg?VlZUk1
+R6
+31
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Project/e_memory.vhd|
+Z33 !s107 C:/Project/e_memory.vhd|
+!i113 1
+R11
+R12
+Aa_memory
+R19
+R2
+R3
+DEx4 work 8 e_memory 0 22 SN>d;GNE]@5M4j00<IeLU3
+l20
+L14
+Vb832OD2F^g[N3JgnmO3R=2
+!s100 7njSE;FdSMQP=>cVI4Ub=1
+R6
+31
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
+Ee_payment_fsm
+Z34 w1627304326
+R2
+R3
+R0
+Z35 8C:/Project/e_payment_fsm.vhd
+Z36 FC:/Project/e_payment_fsm.vhd
+l0
+L4
+V`WmVPFNzz>lLjd2E8TlXa2
+!s100 Oo`iL;<O@>E7jBoM6d@^?3
+R6
+31
+R7
+!i10b 1
+R8
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Project/e_payment_fsm.vhd|
+Z38 !s107 C:/Project/e_payment_fsm.vhd|
+!i113 1
+R11
+R12
+Aa_payment_fsm
+R2
+R3
+DEx4 work 13 e_payment_fsm 0 22 `WmVPFNzz>lLjd2E8TlXa2
+l26
+L14
+V`@hg]kR`aW7:l_]Of:7OD0
+!s100 ]:Ij0UUPD<MY1:]kBTR3b0
+R6
+31
+R7
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
