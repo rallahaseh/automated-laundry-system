@@ -1,0 +1,172 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do e_my_automated_laundry_system_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_payment_fsm.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:52 on Jul 29,2021
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_payment_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_payment_fsm
+# -- Compiling architecture a_payment_fsm of e_payment_fsm
+# End time: 13:36:52 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_my_automated_laundry_system.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:52 on Jul 29,2021
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_my_automated_laundry_system.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_my_automated_laundry_system
+# -- Compiling architecture a_my_automated_laundry_system of e_my_automated_laundry_system
+# End time: 13:36:52 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:53 on Jul 29,2021
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_memory
+# -- Compiling architecture a_memory of e_memory
+# End time: 13:36:53 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_laundry_fsm.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:53 on Jul 29,2021
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_laundry_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_laundry_fsm
+# -- Compiling architecture a_laundry_fsm of e_laundry_fsm
+# End time: 13:36:53 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_7seg_display.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:53 on Jul 29,2021
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_7seg_display.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_7seg_display
+# -- Compiling architecture a_7seg_display of e_7seg_display
+# End time: 13:36:53 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_7seg_bcd_decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:53 on Jul 29,2021
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/e_7seg_bcd_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_7seg_bcd_decoder
+# -- Compiling architecture a_7seg_bcd_decoder of e_7seg_bcd_decoder
+# End time: 13:36:53 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:10 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_display.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_7seg_display
+# -- Compiling architecture a_7seg_display of e_7seg_display
+# End time: 13:37:10 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:10 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_bcd_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_7seg_bcd_decoder
+# -- Compiling architecture a_7seg_bcd_decoder of e_7seg_bcd_decoder
+# End time: 13:37:10 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:10 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_laundry_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_laundry_fsm
+# -- Compiling architecture a_laundry_fsm of e_laundry_fsm
+# End time: 13:37:10 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:10 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_memory
+# -- Compiling architecture a_memory of e_memory
+# End time: 13:37:10 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:11 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_payment_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_payment_fsm
+# -- Compiling architecture a_payment_fsm of e_payment_fsm
+# End time: 13:37:11 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:11 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_my_automated_laundry_system.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_my_automated_laundry_system
+# -- Compiling architecture a_my_automated_laundry_system of e_my_automated_laundry_system
+# End time: 13:37:11 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:11 on Jul 29,2021
+# vcom -reportprogress 300 -work work C:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_my_automated_laundry_system_vhd_tst
+# -- Compiling architecture e_my_automated_laundry_system_arch of e_my_automated_laundry_system_vhd_tst
+# End time: 13:37:11 on Jul 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.e_my_automated_laundry_system_vhd_tst 
+# Start time: 13:37:11 on Jul 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e_my_automated_laundry_system_vhd_tst(e_my_automated_laundry_system_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.e_my_automated_laundry_system(a_my_automated_laundry_system)
+# Loading work.e_memory(a_memory)
+# Loading work.e_laundry_fsm(a_laundry_fsm)
+# Loading work.e_payment_fsm(a_payment_fsm)
+# Loading work.e_7seg_display(a_7seg_display)
+# Loading work.e_7seg_bcd_decoder(a_7seg_bcd_decoder)
+# ** Failure: --- END OF SIMULATION ---
+#    Time: 1410 ns  Iteration: 0  Process: /e_my_automated_laundry_system_vhd_tst/p_stimulus File: C:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht
+# Break in Process p_stimulus at C:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht line 198
+# End time: 13:40:43 on Jul 29,2021, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 0

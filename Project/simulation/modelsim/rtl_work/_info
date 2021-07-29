@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/FPGA_Excercises/sampleProject/automated_laundry_system/simulation/modelsim
+Ee_7seg_bcd_decoder
+Z1 w1627382958
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_bcd_decoder.vhd
+Z5 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_bcd_decoder.vhd
+l0
+L4
+VfUXz3AjTHTX]:AdOg42KK0
+!s100 hlJL5Q^:;J@Fd1SVm^`HM0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1627558630
+!i10b 1
+Z8 !s108 1627558630.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_bcd_decoder.vhd|
+Z10 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_bcd_decoder.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aa_7seg_bcd_decoder
+R2
+R3
+DEx4 work 18 e_7seg_bcd_decoder 0 22 fUXz3AjTHTX]:AdOg42KK0
+l32
+L14
+VkX9NQmDfOHbJFzA0W`>h51
+!s100 K^<B_E`g;8TFNi0Zc2@IO1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ee_7seg_display
+Z13 w1627482402
+R2
+R3
+R0
+Z14 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_display.vhd
+Z15 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_display.vhd
+l0
+L4
+VNhk187nODGSeN3XE^aOjc0
+!s100 lmgT2JPSjYIaK?1DdG>9K0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_display.vhd|
+Z17 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_7seg_display.vhd|
+!i113 1
+R11
+R12
+Aa_7seg_display
+R2
+R3
+DEx4 work 14 e_7seg_display 0 22 Nhk187nODGSeN3XE^aOjc0
+l58
+L14
+V>jMCJLXKBm1fz`n_:@@H>3
+!s100 Do?b`9T=mUXB@UEUjAefZ0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ee_laundry_fsm
+Z18 w1627554372
+R2
+R3
+R0
+Z19 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_laundry_fsm.vhd
+Z20 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_laundry_fsm.vhd
+l0
+L4
+VmY02e:9ckEXZO>J_?Z[bf3
+!s100 ?z?ZQ=c9j=c?C^001XP>i0
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_laundry_fsm.vhd|
+Z22 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_laundry_fsm.vhd|
+!i113 1
+R11
+R12
+Aa_laundry_fsm
+R2
+R3
+DEx4 work 13 e_laundry_fsm 0 22 mY02e:9ckEXZO>J_?Z[bf3
+l34
+L17
+V?cHn_R6IW7Ylb^XmizBTI1
+!s100 E[LnKm`BhTId_6h2Li^R00
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Ee_memory
+R1
+Z23 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z24 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_memory.vhd
+Z25 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_memory.vhd
+l0
+L5
+V?TMCbfG4K5=4Q[A]hd2890
+!s100 YN?bdof37niGgVg?VlZUk1
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_memory.vhd|
+Z27 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_memory.vhd|
+!i113 1
+R11
+R12
+Aa_memory
+R23
+R2
+R3
+DEx4 work 8 e_memory 0 22 ?TMCbfG4K5=4Q[A]hd2890
+l20
+L14
+VEV0W6CajN3ZXMb6h9`zfV0
+!s100 7njSE;FdSMQP=>cVI4Ub=1
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Ee_my_automated_laundry_system
+Z28 w1627554712
+R23
+R2
+R3
+R0
+Z29 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_my_automated_laundry_system.vhd
+Z30 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_my_automated_laundry_system.vhd
+l0
+L5
+VYN91Hkm4f1@?_<?^EHd]c1
+!s100 IFV2IjT:hN6i9RfXF22Nz1
+R6
+32
+Z31 !s110 1627558631
+!i10b 1
+Z32 !s108 1627558631.000000
+Z33 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_my_automated_laundry_system.vhd|
+Z34 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_my_automated_laundry_system.vhd|
+!i113 1
+R11
+R12
+Aa_my_automated_laundry_system
+R23
+R2
+R3
+DEx4 work 29 e_my_automated_laundry_system 0 22 YN91Hkm4f1@?_<?^EHd]c1
+l97
+L19
+V?LcCj@`N`YYnCD6_jImhO0
+!s100 ]UNl@?ITA@a;co:;l@3CP2
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Ee_my_automated_laundry_system_vhd_tst
+Z35 w1627556979
+R2
+R3
+R0
+Z36 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht
+Z37 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht
+l0
+L30
+V:znMOUbHW`YG:m@;_@7?01
+!s100 U9ZI9;UzFaeU1@foC>KF10
+R6
+32
+R31
+!i10b 1
+R32
+Z38 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht|
+Z39 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/simulation/modelsim/e_my_automated_laundry_system.vht|
+!i113 1
+R11
+R12
+Ae_my_automated_laundry_system_arch
+R2
+R3
+DEx4 work 37 e_my_automated_laundry_system_vhd_tst 0 22 :znMOUbHW`YG:m@;_@7?01
+l77
+L32
+V1[>PD`>jULWhf[hEUEDmk0
+!s100 gDc7VRhe]QAYC=21jCa220
+R6
+32
+R31
+!i10b 1
+R32
+R38
+R39
+!i113 1
+R11
+R12
+Ee_payment_fsm
+R1
+R2
+R3
+R0
+Z40 8C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_payment_fsm.vhd
+Z41 FC:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_payment_fsm.vhd
+l0
+L4
+VPHBIfe2bYXY9[>KUalD7b1
+!s100 Oo`iL;<O@>E7jBoM6d@^?3
+R6
+32
+R31
+!i10b 1
+R32
+Z42 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_payment_fsm.vhd|
+Z43 !s107 C:/intelFPGA_lite/18.1/FPGA_Excercises/project/e_payment_fsm.vhd|
+!i113 1
+R11
+R12
+Aa_payment_fsm
+R2
+R3
+DEx4 work 13 e_payment_fsm 0 22 PHBIfe2bYXY9[>KUalD7b1
+l26
+L14
+VJT[1a]neRo^jYkz]^e]iI1
+!s100 ]:Ij0UUPD<MY1:]kBTR3b0
+R6
+32
+R31
+!i10b 1
+R32
+R42
+R43
+!i113 1
+R11
+R12

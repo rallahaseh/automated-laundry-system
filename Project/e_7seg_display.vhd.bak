@@ -1,0 +1,106 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity e_7seg_main_display is
+	port(
+		sl_Clk, sl_s: in std_logic; --clock and selection
+		word_s: in integer range 0 to 5; -- index of word to be displayed
+		total_payment: in integer range 0 to 140;
+		hex_1, hex_2, hex_3, hex_4, hex_5: out std_logic_vector(6 downto 0)
+	);
+end e_7seg_main_display;
+
+architecture a_7seg_main_display of e_7seg_main_display is
+
+	
+	begin
+	
+	process(sl_Clk, sl_s) begin
+		if(rising_edge(sl_Clk)) then
+			if(sl_s = '0') then
+				-- 0 => turned off
+				-- 1 => addr
+				-- 2 => pay
+				-- 3 => enter
+				-- 4 => hold
+				-- 5 => full
+				-- 6 => start
+				
+				case word_s is
+					when 0 => -- turned off
+						hex_5 <= "1111111"; 
+						hex_4 <= "1111111";
+						hex_3 <= "1111111";
+						hex_2 <= "1111111";
+						hex_1 <= "1111111";
+					
+					when 1 => -- addr
+						hex_5 <= "0001000"; -- A 
+						hex_4 <= "1000010"; -- d
+						hex_3 <= "1000010"; -- d
+						hex_2 <= "1111010"; -- r
+						hex_1 <= "1111111"; -- turned off
+					
+					when 2 => -- pay
+						hex_5 <= "0011000"; -- P
+						hex_4 <= "0001000"; -- A
+						hex_3 <= "1000100"; -- Y
+						hex_2 <= "1111111"; -- turned off
+						hex_1 <= "1111111"; -- turned off
+					
+					when 3 => -- enter
+						hex_5 <= "0110000"; -- E
+						hex_4 <= "1101010"; -- n
+						hex_3 <= "1110000"; -- t
+						hex_2 <= "0110000"; -- E
+						hex_1 <= "1111010"; -- r
+					
+					when 4 => -- hold
+						hex_5 <= "1001000"; -- H
+						hex_4 <= "1100010"; -- o
+						hex_3 <= "1111001"; -- l
+						hex_2 <= "1000010"; -- d
+						hex_1 <= "1111111"; -- turned off
+						
+					when 5 => -- full
+						hex_5 <= "0111000"; -- F
+						hex_4 <= "1100011"; -- u
+						hex_3 <= "1111001"; -- l
+						hex_2 <= "1111001"; -- l
+						hex_1 <= "1111111"; -- turned off
+						
+					when 6 => -- start
+						hex_5 <= "0100100"; -- s
+						hex_4 <= "1110000"; -- t
+						hex_3 <= "0001000"; -- A
+						hex_2 <= "1111010"; -- r
+						hex_1 <= "1110000"; -- t
+						
+				end case;
+				
+			elsif(sl_s = '1') then
+				hex_1 <= "1111111"; -- turned off
+				hex_2 <= "1111111"; -- turned off
+				hex_3 <= "1111111"; -- turned off
+				case total_payment is
+					when 0   => hex_5 <= 0000001; hex_4 <= 0000001;
+					when 10  => hex_5 <= 0000001; hex_4 <= 0110000;
+					when 20  => hex_5 <= 0000001; hex_4 <= 0010010;
+					when 30  => hex_5 <= 0000001; hex_4 <= 0000110;
+					when 40  => hex_5 <= 0000001; hex_4 <= 1001100;
+					when 50  => hex_5 <= 0000001; hex_4 <= 0100100;
+					when 60  => hex_5 <= 0000001; hex_4 <= 0100000;
+					when 70  => hex_5 <= 0000001; hex_4 <= 0001111;
+					when 80  => hex_5 <= 0000001; hex_4 <= 0000000;
+					when 90  => hex_5 <= 0000001; hex_4 <= 0000100;
+					when 100 => hex_5 <= 0110000; hex_4 <= 0000001;
+					when 110 => hex_5 <= 0110000; hex_4 <= 0110000;
+					when 120 => hex_5 <= 0110000; hex_4 <= 0010010;
+					when 130 => hex_5 <= 0110000; hex_4 <= 0000110;
+					when 140 => hex_5 <= 0110000; hex_4 <= 1001100;
+					when others =>hex_5 <= "1111111"; hex_4 <= "1111111";
+				end case;
+			end if;
+		end if;
+	end process;
+end architecture a_7seg_main_display;
