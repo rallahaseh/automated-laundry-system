@@ -1,6 +1,17 @@
 # Automated Laundry System
 
-FPGA-Programming Course Project
+##### FPGA-Programming Course Project
+
+----
+
+**Requirments**
+|  | Details |
+| ------ | ------ |
+| FPGA | Altera/IntelCycloneVSE |
+| Device | 5CSEMA5F31C6 |
+| IDE | IntelQuartusPrime |
+| Simulation | ModelSim Altera |
+| Programing Language | VHDL |
 
 ----
 
