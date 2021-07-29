@@ -10,7 +10,7 @@ entity e_my_automated_laundry_system is
 		coin_in: in std_logic_vector(3 downto 0); -- "1 Euro, 50cents, 20cents, 10cents" -- "1111"
 		password_in, washing_machine_address_in: in std_logic_vector(3 downto 0);
 		green_led, red_led: out std_logic;
-		start_button: out std_logic;
+		start_button: in std_logic;
 		hex_0, hex_1, hex_2, hex_3, hex_4, hex_5: out std_logic_vector(6 downto 0);
 		coin_out: out std_logic_vector(3 downto 0) -- "1 Euro, 50cents, 20cents, 10cents" -- "1111"
 	);
@@ -34,12 +34,10 @@ architecture a_my_automated_laundry_system of e_my_automated_laundry_system is
 	
 	------------------------------------- Procedures -----------------------------------------------
 	
-	procedure procedure_toggle_green_led (signal green_led : out std_logic; signal start_button : out std_logic) is
+	procedure procedure_toggle_green_led (signal green_led : out std_logic) is
 		begin
-			start_button <= '1'; -- enable the start button
 			green_led <= '1';-- green light on
 			-- wait 1 ns cycles for the process to reset
-			start_button <= '0'; -- disable the start button
 			green_led <= '0';-- green light off
 	end procedure_toggle_green_led;
 	
@@ -50,7 +48,7 @@ architecture a_my_automated_laundry_system of e_my_automated_laundry_system is
 		port(
 			CLOCK_50, reset: in std_logic;
 			nearby_person_sensor, washing_machine_done_sensor: in std_logic;
-			push_password_button, push_address_button: in std_logic;
+			start_button,push_password_button, push_address_button: in std_logic;
 			washing_machine_available, paid: in boolean;
 			password_in, washing_machine_address_in: in std_logic_vector(3 downto 0);
 			working_washing_machines_count: out integer range 0 to 9;
@@ -129,7 +127,7 @@ architecture a_my_automated_laundry_system of e_my_automated_laundry_system is
       port map(CLOCK_50,
 					reset, 
 					nearby_person_sensor, washing_machine_done_sensor,
-					push_password_button, push_address_button,
+					start_button,push_password_button, push_address_button,
 					sl_washing_machine_address_available, sl_paid,
 					password_in, washing_machine_address_in,
 					sl_working_washing_machines_count, sl_state_choice);
@@ -159,11 +157,11 @@ architecture a_my_automated_laundry_system of e_my_automated_laundry_system is
 				
 				when 5 => -- process_state
 					sl_word_choice <= 4; -- displaying the word 'Procs'
-					procedure_toggle_green_led(green_led, start_button); -- Enabling start button
+					procedure_toggle_green_led(green_led); -- Enabling start button
 					
 				when 6 => -- finished_processing_state
 					sl_word_choice <= 7; -- displaying the word 'Start'
-					procedure_toggle_green_led(green_led, start_button); -- Disabling start button
+					procedure_toggle_green_led(green_led); -- Disabling start button
 				
 				when 7 => -- hold_state
 					sl_word_choice <= 5; -- displaying the word hold
