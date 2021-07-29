@@ -6,7 +6,7 @@ entity e_laundry_fsm is
 	port(
 		CLOCK_50, reset: in std_logic;
 		nearby_person_sensor, washing_machine_done_sensor: in std_logic;
-		push_password_button, push_address_button: in std_logic;
+		start_button,push_password_button, push_address_button: in std_logic;
 		washing_machine_available, paid: in boolean;
 		password_in, washing_machine_address_in: in std_logic_vector(n-5 downto 0);
 		working_washing_machines_count: out integer range 0 to 9;
@@ -80,7 +80,7 @@ architecture a_laundry_fsm of e_laundry_fsm is
 						
 					when process_state =>
 						-- checking if the washing machine finished the work
-						if(washing_machine_done_sensor = '0') then
+						if(washing_machine_done_sensor = '1') then
 							sl_present_state <= finished_processing_state;
 	
 						else -- still did not finished => HOLD
@@ -88,10 +88,12 @@ architecture a_laundry_fsm of e_laundry_fsm is
 						end if;
 						
 					when finished_processing_state => 
-						sl_present_state <= start_state;
+						if(start_button = '1') then
+								sl_present_state <= start_state;
+						end if;
 						
 					when hold_state =>
-						if(washing_machine_done_sensor ='0') then
+						if(washing_machine_done_sensor ='1') then
 							sl_present_state <= process_state;
 						else
 							sl_present_state <= hold_state;
@@ -125,4 +127,5 @@ architecture a_laundry_fsm of e_laundry_fsm is
 									 7 when hold_state, 
 									 8 when start_state, 
 									 9 when full_state;
+		state_choice <= sl_state_choice;
 end a_laundry_fsm;
