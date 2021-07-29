@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Tue Jul 27 19:01:06 2021
+Analysis & Synthesis Status : Successful - Thu Jul 29 13:47:53 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Automated_Laundry_System
 Top-level Entity Name : e_my_automated_laundry_system
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 15
+Total registers : 49
 Total pins : 67
 Total virtual pins : 0
-Total block memory bits : 0
+Total block memory bits : 2,816
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

@@ -1,0 +1,13 @@
+
+State Machine - |e_my_automated_laundry_system|e_laundry_fsm:i_e_laundry_fsm|sl_present_state
+Name sl_present_state.start_state sl_present_state.hold_state sl_present_state.full_state sl_present_state.finished_processing_state sl_present_state.process_state sl_present_state.payment_state sl_present_state.availability_state sl_present_state.verification_state sl_present_state.user_detect_state sl_present_state.no_action_state 
+sl_present_state.no_action_state 0 0 0 0 0 0 0 0 0 0 
+sl_present_state.user_detect_state 0 0 0 0 0 0 0 0 1 1 
+sl_present_state.verification_state 0 0 0 0 0 0 0 1 0 1 
+sl_present_state.availability_state 0 0 0 0 0 0 1 0 0 1 
+sl_present_state.payment_state 0 0 0 0 0 1 0 0 0 1 
+sl_present_state.process_state 0 0 0 0 1 0 0 0 0 1 
+sl_present_state.finished_processing_state 0 0 0 1 0 0 0 0 0 1 
+sl_present_state.full_state 0 0 1 0 0 0 0 0 0 1 
+sl_present_state.hold_state 0 1 0 0 0 0 0 0 0 1 
+sl_present_state.start_state 1 0 0 0 0 0 0 0 0 1 
